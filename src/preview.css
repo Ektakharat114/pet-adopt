@@ -1,0 +1,17 @@
+.preview-note {
+  background: var(--surface);
+  border-bottom: 1px dashed var(--line);
+  color: var(--muted);
+  font-size: .82rem;
+  padding: 8px 20px;
+  text-align: center;
+}
+.preview-note b { color: var(--ink); font-weight: 600; }
+.preview-note code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  background: var(--hover);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1px 6px;
+  color: var(--ink);
+}
